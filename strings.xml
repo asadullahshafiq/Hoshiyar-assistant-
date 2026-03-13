@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ہوشیار Assistant</string>
+    <string name="commands_label">Commands</string>
+    <string name="settings_label">Settings</string>
+</resources>

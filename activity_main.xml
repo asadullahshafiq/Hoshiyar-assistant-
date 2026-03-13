@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A1A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🤖"
+            android:textSize="60sp"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ہوشیار Assistant"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="آپ کا ذاتی، محفوظ اور خفیہ معاون"
+            android:textSize="14sp"
+            android:textColor="#888888"
+            android:layout_marginTop="5dp" />
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tv_default_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Default Assistant Set Nahi"
+            android:textSize="14sp"
+            android:textColor="#FF9800"
+            android:gravity="center"
+            android:background="#1A1A2E"
+            android:padding="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp" />
+
+        <!-- Command Count -->
+        <TextView
+            android:id="@+id/tv_command_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="کل Commands: 0"
+            android:textSize="13sp"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Main Button - Open Assistant -->
+        <Button
+            android:id="@+id/btn_open_assistant"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="🎤  Assistant کھولیں"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6C63FF"
+            android:layout_marginBottom="15dp" />
+
+        <!-- Set as Default -->
+        <Button
+            android:id="@+id/btn_set_default"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="⚡  Default Assistant Set کریں"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF5722"
+            android:layout_marginBottom="15dp" />
+
+        <!-- Manage Commands -->
+        <Button
+            android:id="@+id/btn_manage_commands"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="📝  Commands Manage کریں"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="15dp" />
+
+        <!-- Settings -->
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="⚙️  Settings"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#455A64"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Features Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#0D1117"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔒 آپ کی Privacy محفوظ ہے"
+                android:textColor="#4CAF50"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✅ AES-256 Encryption"
+                android:textColor="#888888"
+                android:textSize="13sp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✅ کوئی Browser یا App Connect نہیں"
+                android:textColor="#888888"
+                android:textSize="13sp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✅ Unlimited Custom Commands"
+                android:textColor="#888888"
+                android:textSize="13sp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✅ اردو اور انگریزی دونوں"
+                android:textColor="#888888"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
